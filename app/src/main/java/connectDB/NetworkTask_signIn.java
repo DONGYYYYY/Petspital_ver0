@@ -18,7 +18,7 @@ import okhttp3.Response;
 public class NetworkTask_signIn extends AsyncTask<Member, Void, Member> {
     public static final MediaType JSON
             = MediaType.parse("application/json; charset=utf-8");
-    String url = "http://203.253.255.113:9090/member/signIn";
+    String url = "http://개인db/member/signIn";
     String bodyStr = "";
     String json;
     Member result;

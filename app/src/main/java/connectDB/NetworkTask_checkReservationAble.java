@@ -16,7 +16,7 @@ public class NetworkTask_checkReservationAble extends AsyncTask<Reservation, Voi
 
     @Override
     protected Integer doInBackground(Reservation... voids) {
-        String url = "http://203.253.255.113:9090/reservation/checkReservationAble";
+        String url = "http://개인db/reservation/checkReservationAble";
         String queryurl = url + "?petspital="+voids[0].getPetspital()+"&regdate="+voids[0].getRegdate();
         String bodyStr = "";
         int result;

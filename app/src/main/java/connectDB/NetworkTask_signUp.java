@@ -24,7 +24,7 @@ public class NetworkTask_signUp extends AsyncTask<Member, Void, Integer> {
     @Override
     protected Integer doInBackground(Member... voids) {
 
-        String url = "http://203.253.255.113:9090/member/signUp";
+        String url = "http://개인db/member/signUp";
         /* Tojson */
 
         String json;

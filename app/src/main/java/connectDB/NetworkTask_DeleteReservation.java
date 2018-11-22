@@ -26,7 +26,7 @@ public class NetworkTask_DeleteReservation extends AsyncTask<Reservation, Void, 
     @Override
     protected Integer doInBackground(Reservation... voids) {
 
-        String url = "http://203.253.255.113:9090/reservation/deleteReservation";
+        String url = "http://개인db/reservation/deleteReservation";
         /* Tojson */
 
         String json;

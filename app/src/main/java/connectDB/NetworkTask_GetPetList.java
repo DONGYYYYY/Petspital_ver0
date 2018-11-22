@@ -17,7 +17,7 @@ import okhttp3.Response;
 public class NetworkTask_GetPetList extends AsyncTask<String, Void, List<PetData>> {
     @Override
     protected List<PetData> doInBackground(String... voids) {
-        String url = "http://203.253.255.113:9090/Pet/GetPetList";
+        String url = "http://개인db/Pet/GetPetList";
         String queryurl = url + "?userid=" + voids[0];
         String bodyStr = "";
 

@@ -24,7 +24,7 @@ public class NetworkTask_AddList extends AsyncTask<CommentItem, Void, Integer> {
     @Override
     protected Integer doInBackground(CommentItem... voids) {
 
-        String url = "http://203.253.255.113:9090/comment/addList";
+        String url = "http://개인db/comment/addList";
         /* Tojson */
 
         String json;
